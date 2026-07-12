@@ -10,7 +10,7 @@ const TOTAL_PAIRS =
 
 
 const CARD_BACK_ID =
-  "CAPA";
+  "capa";
 
 
 /* ==========================================================
@@ -47,7 +47,7 @@ const IMAGE_SOURCES =
 
     [
       CARD_BACK_ID,
-      "CAPA.jpg"
+      "capa.jpg"
     ]
   ]);
 
@@ -65,17 +65,15 @@ const THEMES = [
       "img02",
 
     name:
-      "O Semeador",
+      "Ira",
 
-    subtitle:
-      "Aquele que lança a semente",
+    englishName:
+      "Wrath",
 
     description:
-      "O semeador representa quem compartilha uma boa mensagem com generosidade. " +
-      "Ele lança as sementes em diferentes lugares, sem controlar completamente o " +
-      "resultado, mas confiando que algumas encontrarão espaço para crescer. Sua " +
-      "ação ensina sobre dedicação, esperança e disposição para transmitir aquilo " +
-      "que pode transformar vidas."
+      "É a raiva intensa que pode conduzir a atitudes impulsivas. " +
+      "Compreender as próprias emoções e criar tempo para refletir " +
+      "ajuda a transformar a ira em ação responsável."
   },
 
   {
@@ -86,16 +84,15 @@ const THEMES = [
       "img04",
 
     name:
-      "A Semente",
+      "Preguiça",
 
-    subtitle:
-      "A palavra e o ensinamento",
+    englishName:
+      "Sloth",
 
     description:
-      "A semente simboliza uma mensagem capaz de gerar vida e transformação. Mesmo " +
-      "sendo pequena, carrega dentro de si a possibilidade de crescer e produzir " +
-      "frutos. Seu desenvolvimento depende da maneira como é recebida, compreendida, " +
-      "protegida e cultivada ao longo do tempo."
+      "Representa a falta de disposição para agir diante das " +
+      "responsabilidades. Pequenas ações, realizadas com constância, " +
+      "podem superar a imobilidade e recuperar a motivação."
   },
 
   {
@@ -106,16 +103,15 @@ const THEMES = [
       "img06",
 
     name:
-      "À Beira do Caminho",
+      "Inveja",
 
-    subtitle:
-      "Uma mensagem que não encontra espaço",
+    englishName:
+      "Envy",
 
     description:
-      "A semente que cai à beira do caminho permanece sobre uma superfície endurecida " +
-      "e não consegue penetrar no solo. Ela representa aquilo que é ouvido, mas não " +
-      "encontra abertura para ser compreendido ou acolhido. Quando não existe atenção " +
-      "ou interesse, o ensinamento pode desaparecer antes de produzir qualquer mudança."
+      "Surge da comparação constante com as conquistas de outras " +
+      "pessoas. Reconhecer o próprio valor ajuda a substituir a " +
+      "inveja pelo aprendizado e pela admiração."
   },
 
   {
@@ -126,16 +122,15 @@ const THEMES = [
       "img08",
 
     name:
-      "As Aves",
+      "Ganância",
 
-    subtitle:
-      "Aquilo que retira a semente",
+    englishName:
+      "Greed",
 
     description:
-      "As aves levam as sementes que ficaram expostas sobre o caminho. Elas representam " +
-      "distrações, pressões, dúvidas e influências que podem retirar uma boa mensagem " +
-      "antes que ela seja compreendida e guardada. Esse par destaca a importância da " +
-      "atenção e do cuidado com aquilo que aprendemos."
+      "É o desejo exagerado de possuir riquezas, poder ou vantagens. " +
+      "A busca sem limites pode fazer com que necessidades humanas, " +
+      "relações e responsabilidades sejam esquecidas."
   },
 
   {
@@ -146,16 +141,15 @@ const THEMES = [
       "img10",
 
     name:
-      "Solo Pedregoso",
+      "Gula",
 
-    subtitle:
-      "Crescimento rápido e pouca profundidade",
+    englishName:
+      "Gluttony",
 
     description:
-      "No solo pedregoso, a semente nasce rapidamente, mas encontra pouca terra para " +
-      "aprofundar suas raízes. Esse cenário representa o entusiasmo inicial que não é " +
-      "acompanhado por compreensão, compromisso e continuidade. Quando surgem dificuldades, " +
-      "aquilo que parecia forte pode desaparecer por não possuir raízes profundas."
+      "Simboliza o excesso e a dificuldade de reconhecer limites. " +
+      "Pode estar relacionada ao consumo de alimentos, bens, informações " +
+      "ou experiências de maneira descontrolada."
   },
 
   {
@@ -166,16 +160,15 @@ const THEMES = [
       "img12",
 
     name:
-      "Sol e Falta de Raiz",
+      "Orgulho",
 
-    subtitle:
-      "A dificuldade que revela a fragilidade",
+    englishName:
+      "Pride",
 
     description:
-      "Quando o sol se intensifica, a planta sem raízes profundas seca. O sol representa " +
-      "os desafios, as dificuldades e as situações que colocam nossas escolhas à prova. " +
-      "Esse par ensina que o crescimento verdadeiro precisa de raízes formadas por " +
-      "conhecimento, confiança, prática e perseverança."
+      "Representa a valorização excessiva de si mesmo. Quando o orgulho " +
+      "domina as escolhas, pode dificultar o reconhecimento dos próprios " +
+      "limites e afastar as pessoas."
   },
 
   {
@@ -186,16 +179,15 @@ const THEMES = [
       "img14",
 
     name:
-      "Entre Espinhos",
+      "Luxúria",
 
-    subtitle:
-      "Preocupações que sufocam o crescimento",
+    englishName:
+      "Lust",
 
     description:
-      "Os espinhos crescem ao redor da planta e impedem seu desenvolvimento. Eles " +
-      "representam preocupações excessivas, ambições, medos, distrações e interesses " +
-      "que ocupam tanto espaço que a boa mensagem deixa de produzir frutos. O ensinamento " +
-      "convida a reconhecer aquilo que sufoca o crescimento e a reorganizar as prioridades."
+      "Representa o desejo intenso quando ele ultrapassa o respeito, " +
+      "o equilíbrio e a responsabilidade. O autocontrole permite " +
+      "transformar impulsos em escolhas conscientes."
   },
 
   {
@@ -206,16 +198,16 @@ const THEMES = [
       "img16",
 
     name:
-      "A Boa Terra",
+      "Coragem e covardia",
 
-    subtitle:
-      "Acolher, compreender e cultivar",
+    englishName:
+      "Courage and Cowardice",
 
     description:
-      "A boa terra representa um coração e uma mente disponíveis para ouvir, compreender " +
-      "e colocar em prática. Ela não é apenas um lugar de recepção, mas também de cuidado, " +
-      "compromisso e crescimento contínuo. A mensagem encontra condições para criar raízes, " +
-      "desenvolver-se e transformar atitudes."
+      "A coragem não significa ausência de medo, mas a capacidade de " +
+      "agir com responsabilidade mesmo diante da insegurança. A covardia " +
+      "surge quando o medo impede a defesa do que é justo ou transfere " +
+      "para outras pessoas a responsabilidade por uma escolha."
   },
 
   {
@@ -226,16 +218,16 @@ const THEMES = [
       "img18",
 
     name:
-      "Os Frutos",
+      "Cura e enfermidade",
 
-    subtitle:
-      "O resultado de uma mensagem bem cultivada",
+    englishName:
+      "Healing and Illness",
 
     description:
-      "A semente que cresce em boa terra produz frutos em diferentes quantidades. Os " +
-      "frutos simbolizam atitudes, escolhas e ações que demonstram que o ensinamento foi " +
-      "verdadeiramente acolhido. Uma boa mensagem produz resultados quando se transforma " +
-      "em respeito, solidariedade, responsabilidade e cuidado com outras pessoas."
+      "A enfermidade revela a fragilidade da vida e a necessidade de " +
+      "cuidado, apoio e compreensão. A cura pode envolver o corpo, as " +
+      "emoções e as relações, exigindo tempo, acolhimento, tratamento " +
+      "e participação de outras pessoas."
   },
 
   {
@@ -246,16 +238,16 @@ const THEMES = [
       "img20",
 
     name:
-      "Escuta e Perseverança",
+      "Amizade e indiferença",
 
-    subtitle:
-      "Transformar a mensagem em modo de viver",
+    englishName:
+      "Friendship and Indifference",
 
     description:
-      "Ouvir é apenas o início. Compreender, guardar, praticar e perseverar tornam o " +
-      "aprendizado duradouro. A parábola convida cada pessoa a preparar sua vida como boa " +
-      "terra, capaz de acolher uma boa mensagem, resistir às dificuldades e multiplicar " +
-      "seus frutos na convivência com a comunidade."
+      "A amizade é construída por meio de confiança, presença, respeito " +
+      "e cuidado mútuo. A indiferença acontece quando as necessidades e " +
+      "os sentimentos de outras pessoas são ignorados, enfraquecendo os " +
+      "vínculos e a convivência."
   }
 ];
 
@@ -303,7 +295,9 @@ const CARDS =
 
 const RESOURCES = [
   ...CARDS.map(
-    (card) => ({
+    (
+      card
+    ) => ({
       id:
         card.id,
 
@@ -337,7 +331,9 @@ const RESOURCES = [
 ========================================================== */
 
 const $ =
-  (id) =>
+  (
+    id
+  ) =>
     document.getElementById(
       id
     );
@@ -445,7 +441,7 @@ const pendingGameTimeouts =
 
 
 /* ==========================================================
-   CONTROLE DE ESPERAS
+   CONTROLE SEGURO DAS ESPERAS
 ========================================================== */
 
 function scheduleGameTimeout(
@@ -528,7 +524,7 @@ function createFallbackImage(
   const footerText =
     isCardBack
 
-      ? "SEMEADOR"
+      ? "SEVEN SINS"
 
       : resourceId.toUpperCase();
 
@@ -540,7 +536,9 @@ function createFallbackImage(
       height="540"
       viewBox="0 0 960 540"
     >
+
       <defs>
+
         <linearGradient
           id="gradient"
           x1="0"
@@ -548,22 +546,26 @@ function createFallbackImage(
           x2="1"
           y2="1"
         >
+
           <stop
             offset="0%"
-            stop-color="#2b1607"
+            stop-color="#0d0914"
           />
 
           <stop
             offset="52%"
-            stop-color="#7a4616"
+            stop-color="#673b91"
           />
 
           <stop
             offset="100%"
-            stop-color="#f47f17"
+            stop-color="#ffd84d"
           />
+
         </linearGradient>
+
       </defs>
+
 
       <rect
         width="960"
@@ -572,6 +574,7 @@ function createFallbackImage(
         fill="url(#gradient)"
       />
 
+
       <rect
         x="22"
         y="22"
@@ -579,19 +582,33 @@ function createFallbackImage(
         height="496"
         rx="28"
         fill="none"
-        stroke="#ffd447"
+        stroke="#c8a7ff"
         stroke-width="8"
       />
+
+
+      <rect
+        x="34"
+        y="34"
+        width="892"
+        height="472"
+        rx="24"
+        fill="none"
+        stroke="#ffd84d"
+        stroke-width="3"
+      />
+
 
       <circle
         cx="480"
         cy="255"
         r="150"
-        fill="#160b04"
-        fill-opacity="0.55"
-        stroke="#fff0a5"
+        fill="#07050b"
+        fill-opacity="0.58"
+        stroke="#fff1a8"
         stroke-width="8"
       />
+
 
       <text
         x="480"
@@ -600,10 +617,11 @@ function createFallbackImage(
         font-family="Georgia, serif"
         font-size="${isCardBack ? 130 : 150}"
         font-weight="900"
-        fill="#fff7d4"
+        fill="#fff8d8"
       >
         ${mainText}
       </text>
+
 
       <rect
         x="310"
@@ -611,9 +629,10 @@ function createFallbackImage(
         width="340"
         height="58"
         rx="29"
-        fill="#160b04"
-        fill-opacity="0.64"
+        fill="#07050b"
+        fill-opacity="0.66"
       />
+
 
       <text
         x="480"
@@ -623,10 +642,11 @@ function createFallbackImage(
         font-size="24"
         font-weight="800"
         letter-spacing="5"
-        fill="#fff7d4"
+        fill="#fff8d8"
       >
         ${footerText}
       </text>
+
     </svg>
   `;
 
@@ -750,7 +770,7 @@ async function preloadAllResources() {
           resource.id ===
           CARD_BACK_ID
 
-            ? "Preparando CAPA.jpg..."
+            ? "Preparando capa.jpg..."
 
             : `Preparando ${resource.src}...`;
 
@@ -801,8 +821,7 @@ function updateLoadingProgress(
 
 
   $("loadingCounter").textContent =
-    `${completed} de ` +
-    `${RESOURCES.length} recursos preparados`;
+    `${completed} de ${RESOURCES.length} recursos preparados`;
 
 
   $("loadingBar").style.width =
@@ -850,7 +869,7 @@ function finishLoading() {
         até
         <strong>img20.jpg</strong>
         e
-        <strong>CAPA.jpg</strong>
+        <strong>capa.jpg</strong>
         foram encontrados corretamente.
       </p>
     `;
@@ -868,10 +887,8 @@ function finishLoading() {
       <p>
         ${missingFilesCount}
         arquivo(s) não foram encontrados.
-        Verifique os nomes, a extensão
-        <strong>.jpg</strong>
-        e as letras maiúsculas em
-        <strong>CAPA.jpg</strong>.
+        Verifique os nomes e a extensão
+        <strong>.jpg</strong>.
       </p>
     `;
   }
@@ -899,7 +916,9 @@ function shuffle(
   items
 ) {
   const result =
-    [...items];
+    [
+      ...items
+    ];
 
 
   for (
@@ -1228,6 +1247,9 @@ function returnToInitialScreen() {
 
 
 function openMeaningScreen() {
+  clearPendingGameTimeouts();
+
+
   closeResultModal();
 
 
@@ -1357,7 +1379,7 @@ function createBoard() {
 
       /*
         FACE FECHADA:
-        CAPA.jpg
+        capa.jpg
       */
 
       back.className =
@@ -1407,8 +1429,12 @@ function createBoard() {
 
 
       /*
-        A única interação da carta é o clique.
-        Não existe mouseenter ou mouseleave.
+        A carta responde somente ao clique.
+
+        Não existem eventos:
+        mouseenter
+        mouseover
+        mouseleave
       */
 
       button.addEventListener(
@@ -1859,7 +1885,7 @@ function finishGame() {
 
 
   $("gameInstruction").textContent =
-    "Parabéns! Todos os pares foram encontrados.";
+    "Vitória! Todos os pares foram encontrados.";
 
 
   $("completionPanel").hidden =
@@ -2033,7 +2059,7 @@ function renderMeaningScreen() {
 
 
       number.textContent =
-        `ETAPA ${String(
+        `CONCEITO ${String(
           index + 1
         ).padStart(
           2,
@@ -2046,7 +2072,7 @@ function renderMeaningScreen() {
 
 
       subtitle.textContent =
-        theme.subtitle;
+        theme.englishName;
 
 
       description.textContent =

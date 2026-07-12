@@ -2,16 +2,26 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="Jogo da Memória — Parábola do Semeador">
-  <meta name="theme-color" content="#2b1607">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  >
+  <meta
+    name="description"
+    content="Jogo da Memória — The Seven Deadly Sins"
+  >
+  <meta
+    name="theme-color"
+    content="#0b0712"
+  >
 
-  <title>Parábola do Semeador — Jogo da Memória</title>
+  <title>The Seven Deadly Sins — Jogo da Memória</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="page-locked">
+
   <main class="app">
 
     <!-- ==================================================
@@ -22,32 +32,37 @@
       class="screen initial-screen"
       aria-labelledby="initialTitle"
     >
+
       <div class="initial-panel">
 
         <div class="initial-copy">
+
           <p class="eyebrow">
-            EXPERIÊNCIA EDUCATIVA
+            DESAFIO DE MEMÓRIA
           </p>
 
           <h1 id="initialTitle">
-            PARÁBOLA DO<br>
-            <span>SEMEADOR</span>
+            THE SEVEN<br>
+            <span>DEADLY SINS</span>
           </h1>
 
           <div class="intro-box">
+
             <p>
-              A parábola do semeador apresenta sementes lançadas em diferentes
-              tipos de solo. Algumas não conseguem crescer, enquanto outras
-              encontram boas condições e produzem muitos frutos. Neste jogo da
-              memória, cada par representa uma parte da narrativa e convida à
-              reflexão sobre escuta, compreensão, perseverança e transformação.
+              Entre em um universo de escolhas, conflitos, sombras e
+              possibilidades de transformação. Encontre as imagens
+              correspondentes, complete os dez pares e reflita sobre
+              atitudes que podem afastar, ferir, curar, proteger e
+              iluminar as relações humanas.
             </p>
+
           </div>
 
           <div
             class="summary-grid"
             aria-label="Resumo do jogo"
           >
+
             <article>
               <strong>20</strong>
               <span>cartas</span>
@@ -60,9 +75,11 @@
 
             <article>
               <strong>1</strong>
-              <span>mensagem</span>
+              <span>desafio</span>
             </article>
+
           </div>
+
         </div>
 
 
@@ -72,6 +89,7 @@
             class="preview-stack"
             aria-label="Prévia das imagens do jogo"
           >
+
             <figure class="preview-card preview-left">
               <img
                 id="previewImage1"
@@ -101,6 +119,7 @@
                 height="540"
               >
             </figure>
+
           </div>
 
 
@@ -109,7 +128,9 @@
             class="loading-panel"
             aria-live="polite"
           >
+
             <div class="loading-header">
+
               <span id="loadingText">
                 Preparando as imagens...
               </span>
@@ -117,7 +138,9 @@
               <strong id="loadingPercentage">
                 0%
               </strong>
+
             </div>
+
 
             <div
               id="loadingTrack"
@@ -128,12 +151,16 @@
               aria-valuemax="21"
               aria-valuenow="0"
             >
+
               <span id="loadingBar"></span>
+
             </div>
+
 
             <p id="loadingCounter">
               0 de 21 recursos preparados
             </p>
+
           </div>
 
 
@@ -141,6 +168,7 @@
             id="fileInformation"
             class="file-information"
           >
+
             <span aria-hidden="true">
               ✦
             </span>
@@ -151,9 +179,10 @@
               até
               <strong>img20.jpg</strong>
               e
-              <strong>CAPA.jpg</strong>
+              <strong>capa.jpg</strong>
               na mesma pasta dos códigos.
             </p>
+
           </div>
 
 
@@ -170,6 +199,7 @@
         </div>
 
       </div>
+
     </section>
 
 
@@ -183,16 +213,19 @@
       aria-hidden="true"
       hidden
     >
+
       <header class="game-header">
 
         <div>
+
           <p class="eyebrow">
             ENCONTRE OS DEZ PARES
           </p>
 
           <h2 id="gameTitle">
-            PARÁBOLA DO SEMEADOR
+            THE SEVEN DEADLY SINS
           </h2>
+
         </div>
 
 
@@ -225,24 +258,40 @@
       >
 
         <article class="status-card">
+
           <span>Jogadas</span>
-          <strong id="movesCounter">0</strong>
+
+          <strong id="movesCounter">
+            0
+          </strong>
+
         </article>
 
+
         <article class="status-card">
+
           <span>Tempo</span>
-          <strong id="timer">00:00</strong>
+
+          <strong id="timer">
+            00:00
+          </strong>
+
         </article>
 
+
         <article class="status-card">
+
           <span>Pares encontrados</span>
 
           <strong>
             <span id="pairsCounter">0</span>/10
           </strong>
+
         </article>
 
+
         <article class="status-card progress-card">
+
           <span>Progresso</span>
 
           <div
@@ -254,11 +303,14 @@
             aria-valuemax="10"
             aria-valuenow="0"
           >
+
             <div
               id="pairsProgressBar"
               class="progress-bar"
             ></div>
+
           </div>
+
         </article>
 
       </section>
@@ -285,7 +337,9 @@
         class="completion-panel"
         hidden
       >
+
         <div>
+
           <p class="eyebrow">
             DESAFIO CONCLUÍDO
           </p>
@@ -295,18 +349,21 @@
           </h3>
 
           <p>
-            Acesse a tela de significados para conhecer as etapas e os
-            ensinamentos representados pela parábola.
+            Acesse a tela de significados para conhecer os conceitos
+            representados no jogo.
           </p>
+
         </div>
+
 
         <button
           id="accessMeaningButton"
-          class="gold-button"
+          class="light-button"
           type="button"
         >
           ACESSAR SIGNIFICADOS
         </button>
+
       </section>
 
     </section>
@@ -322,22 +379,25 @@
       aria-hidden="true"
       hidden
     >
+
       <header class="meaning-header">
 
         <div>
+
           <p class="eyebrow">
             SIGNIFICADOS
           </p>
 
           <h2 id="meaningTitle">
-            SEMENTES, SOLOS E FRUTOS
+            TREVAS, ESCOLHAS E LUZES
           </h2>
 
           <p class="meaning-introduction">
-            Cada dupla de imagens representa uma parte da parábola e um
-            ensinamento sobre acolher, compreender e colocar em prática uma
-            boa mensagem.
+            Cada dupla de imagens apresenta um conceito ligado às escolhas
+            humanas, às suas consequências e às possibilidades de mudança,
+            cuidado e convivência.
           </p>
+
         </div>
 
 
@@ -372,6 +432,7 @@
 
 
       <footer class="meaning-footer">
+
         <button
           id="meaningPlayAgainButton"
           class="primary-button"
@@ -379,6 +440,7 @@
         >
           JOGAR NOVAMENTE
         </button>
+
       </footer>
 
     </section>
@@ -398,6 +460,7 @@
     aria-hidden="true"
     hidden
   >
+
     <div
       id="modalOverlay"
       class="modal-overlay"
@@ -418,24 +481,34 @@
       </p>
 
       <h2 id="resultTitle">
-        Muito bem!
+        Vitória!
       </h2>
 
       <p class="result-text">
-        Você encontrou todos os pares da Parábola do Semeador.
+        Você encontrou todos os pares de The Seven Deadly Sins.
       </p>
 
 
       <div class="result-data">
 
         <article>
+
           <span>Jogadas</span>
-          <strong id="finalMoves">0</strong>
+
+          <strong id="finalMoves">
+            0
+          </strong>
+
         </article>
 
         <article>
+
           <span>Tempo</span>
-          <strong id="finalTime">00:00</strong>
+
+          <strong id="finalTime">
+            00:00
+          </strong>
+
         </article>
 
       </div>
@@ -445,7 +518,7 @@
 
         <button
           id="modalMeaningButton"
-          class="gold-button"
+          class="light-button"
           type="button"
         >
           ACESSAR SIGNIFICADOS
@@ -470,9 +543,11 @@
       </div>
 
     </div>
+
   </div>
 
 
   <script src="script.js"></script>
+
 </body>
 </html>
